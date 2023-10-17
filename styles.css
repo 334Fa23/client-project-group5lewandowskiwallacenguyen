@@ -77,6 +77,19 @@ header {
     font-family: 'League Spartan', sans-serif;
 }
 
+/* Main Style Rules for Packages */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Footer Styles */
 footer {
     background-color: #ffffff;
