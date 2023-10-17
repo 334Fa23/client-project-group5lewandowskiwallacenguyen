@@ -1,74 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Titletown Events</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <title>Title Town Events</title>
 </head>
-
 <body>
-
-    <div id="container">
-
-        <!--Mobile Nav -->
-        <nav class="mobile-nav">
-            <div id="menu-links">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="events.html">Events</a>
-                <a href="packages.html">Packages</a>
-                <a href="externalcomp.html">Ext. Companies</a>
-                <a href="contact.html">Contact Us</a>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/TitleTownEvents-FullColor.png" alt="Title Town Logo"></a>
+        </div>
+        <div class="mobile-menu">
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
             </div>
-            <a class="menu-icon" onclick="hamburger()">
-                <div>&#9776;</div>
-            </a>
-        </nav>
-
-
-        <!-- Use the header area for the website name or logo -->
-        <header id="tt-logo">
-            <a href="index.html"><img src="" alt="Title Town Events logo" height="220" width="297"></a>
-        </header>
-
-        <!--Tablet, Desktop Nav -->
-        <nav class="tablet-desktop">
-            <ul>
+            <ul class="mobile-navigation">
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+        <nav>
+            <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="events.html">Events</a></li>
                 <li><a href="packages.html">Packages</a></li>
-                <li><a href="externalcomp.html">Ext. Companies</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="companies.html">Ext. Companies</a></li>
+                <li class="last"><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
+    </header>
 
-        <!-- Use the main area to add the main content of the webpage -->
-        <main id="content">
-        </main>
+    <!-- Main Content Area (Empty for now) -->
+    <main>
+       
+    </main>
 
-        <!-- Use the footer area to add webpage footer content -->
-        <footer>
+    <!-- Footer Section -->
+    <footer>
+        <div class="logo">
+            <a href="index.html"><img src="images/TitleTownEvents-FullColor.png" alt="Title Town Logo"></a>
+        </div>
+        <div class="social-media">
+            <a href="https://twitter.com/TitletownEvents" target="_blank"><img src="Images/twitter-x-logo.png" alt="X logo"></a>
+            <a href="https://www.instagram.com/titletowneventsllc/" target="_blank"><img src="Images/Instagram-Logo.png" alt="Instagram Logo"></a>
+        </div>
+    </footer>
 
-            <div class="logo">
-                
-                <img src="Images/TitleTownEvents-FullColor.png">
-                
-            </div>
+    <script src="scripts/script.js"></script>
 
-            <div class="social">
-
-                <a href="https://twitter.com/TitletownEvents" target="_blank"><img src="Images/twitter-x-logo.png" alt="X logo"></a>
-
-                <a href="https://www.instagram.com/titletowneventsllc/" target="_blank"><img src="Images/Instagram-Logo.png" alt="Instagram Logo"></a>
-
-            </div>
-
-        </footer>
-
-    </div>
-	
 </body>
-
 </html>

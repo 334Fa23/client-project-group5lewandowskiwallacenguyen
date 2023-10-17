@@ -1,116 +1,116 @@
-/* CSS Reset */
-* {
+
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-/* Style rules for mobile viewport */
+/* Header Styles */
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
 
-/* Show mobile class, hide tablet-desktop class and menu-links id */
-.mobile {
+.logo img {
+    width: 140px; 
+    margin-left: 50px; 
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    margin-top: 80px;
+}
+
+.navigation li {
+    margin-right: 70px;
+}
+
+.navigation li.last {
+    margin-right: 60px; 
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000;
+    font-family: League Spartan, sans-serif;
+    font-size: 16px; 
+}
+
+.navigation a:hover {
+    font-weight: bold;
+}
+
+.hamburger-menu {
+    display: block;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 4px 0;
+}
+
+.mobile-menu.show-mobile-menu {
     display: block;
 }
 
-.tablet-desktop,
-#menu-links {
+.mobile-navigation {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.mobile-navigation li {
+    margin: 10px 0;
+}
+
+.mobile-navigation a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-media a {
+    margin-right: 40px;
+}
+
+.social-media a img {
+    width: 65px; 
+    height: 65px; 
+}
+
+.social-media a:last-child {
+    margin-right: 250px; 
+}
+
+.mobile-menu {
     display: none;
 }
 
-/* Style rule for header */
-
-/* Style rules for hamburger menu */
-.mobile-nav a {
-    color: #fff;
-    font-family: "Francois One", sans-serif;
-    text-align: center;
-    font-size: 2em;
-    text-decoration: none;
-    padding: 3%;
-    display: block;
-}
-
-.mobile-nav a.menu-icon {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-/* Style rules for main content */
-
-/* Style rules for footer content */
-
-footer {
-    background-color: #014d21;
-    color: white;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    top: inherit;
-}
-
-footer .logo {
-    width: 10px;
-    height: auto;
-}
-
-.social {
-    float: right;
-    padding: 10%;
-    width: 30px;
-    height: 30px;
-}
-
-.social img {
-    display:inline-block;
-    padding: 10%;
-    width: 100px;
-    height: auto;
-}
-
-
-
-
-/* Media Query for Tablet Viewport */
-@media screen and (min-width: 630px),
-print {
-
-    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
-    .tablet-desktop {
-        display: block;
-    }
-
-    .mobile,
-    .mobile-nav {
-        display: none;
-    }
-
-    /* Tablet Viewport: Style rule for header */
-
-    /* Tablet Viewport: Style rules for nav area */
-
-    /* Tablet Viewport: Style rules for main content area */
-
-}
-
-/* Media Query for Desktop Viewport */
-@media screen and (min-width: 1015px),
-print {
-
-    /* Desktop Viewport: Style rule for header */
-
-    /* Desktop Viewport: Style rules for nav area */
-
-}
-
-/* Desktop Viewport: Style Rules for main content */
-
-/* Media Query for Print */
-@media print {
-    body {
-        background-color: #fff;
-        color: #000;
+@media (max-width: 768px) {
+    .mobile-menu {
+        display: block; 
     }
 }
+
+
+
+
+
