@@ -84,6 +84,73 @@ header {
   width: 33.33%;
 }
 
+/* Style Rules For About Page */
+.container {
+    display: flex; 
+    align-items: center; 
+        }
+
+.missions {
+    flex: 1; 
+    padding: 10px;
+    margin-left: 40px;
+        }
+
+.image {
+    flex: 1;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+        }
+
+h2{
+    color: darkgreen;
+}
+
+h1 {
+    padding-top: 40px;
+    text-align: center;
+    color: darkgreen;
+}
+
+.exec {
+    column-count: 3;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Style Rules for External Companies Page */
+.airlines {
+    margin: 50px;
+    flex: 2;
+}
+
+.parenttravel {
+    margin: 50px;
+    flex: 2;
+    margin-top: 20px;
+} 
+
+.button {
+            display: inline-block;
+            padding: 10px; 
+            background-color: darkgreen;
+            color: white; 
+            border: none;
+            border-radius: 5px; 
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px; 
+            cursor: pointer;
+}
+
+.horizontal-line {
+            border-top: 1px solid #000;
+    width: 75%;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -107,6 +174,18 @@ div {
  background-image: url("image.jpg");
  background-size: 100% 100%;
 }
+
+/* Tablet viewport styles  */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for tablets */
+    }
+
+    .container {
+        width: 80%; /* Adjust container width for tablets */
+        margin: 0 auto; /* Center align container */
+    }
+
 
 /* Footer Styles */
 footer {
@@ -140,6 +219,8 @@ footer {
         display: block; 
     }
 }
+
+
 
 
 
