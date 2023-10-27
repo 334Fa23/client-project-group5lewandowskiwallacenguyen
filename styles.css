@@ -186,7 +186,96 @@ div {
         margin: 0 auto; /* Center align container */
     }
 
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1015px), print {
+    
+    /* Desktop Viewport: Style rule for header */
+    header {
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+        margin: 0;
+    }
+    
+    /* Desktop Viewport: Style rules for nav area */
+    nav {
+        float: right;
+        width: 70%;
+        margin: 4em 1em 0 0;
+    }
 
+    nav ul {
+        text-align: right;
+    }
+    
+    nav li {
+        border: none;
+    }
+
+    nav li a {
+        padding: 0.5em 1em;
+    }
+    
+    nav li a:hover {
+        color: #000;
+        background-color: #fff;
+    }
+    
+    /* Desktop Viewport: Style Rules for main content */
+    main {
+        clear: left;
+    }
+    
+    main h1 {
+        font-size: 1.8em;
+    }
+    
+    article h3 {
+        font-size: 1.75em;
+    }
+    
+    .pic-text {
+        font-size: 1.5em;
+        padding: 20px;
+    }
+    
+    .frame {
+        opacity: 0.9;
+    }
+    
+    .frame:hover {
+        opacity: 1;
+        box-shadow: 8px 8px 10px #808080;
+    }
+    
+    #packages, #packages, #packages {
+        width: 29%;
+        float: left;
+        margin: 0 2%;
+   
+    
+}
+
+/* Media Query for Large Desktop Viewports */
+@media screen and (min-width: 1921px) {
+ 
+    #container {
+        width: 1920px;
+        margin: 0 auto;
+    }
+    
+}
+
+/* Media Query for Print */
+@media print {
+    
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+
+}
+    }
 /* Footer Styles */
 footer {
     background-color: #ffffff;
