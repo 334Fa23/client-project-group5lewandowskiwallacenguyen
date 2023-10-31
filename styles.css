@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -16,8 +15,8 @@ header {
 }
 
 .logo img {
-    width: 150px; 
-    margin-left: 50px; 
+    width: 150px;
+    margin-left: 50px;
 }
 
 .navigation {
@@ -32,14 +31,14 @@ header {
 }
 
 .navigation li.last {
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 .navigation a {
     text-decoration: none;
     color: #000;
     font-family: League Spartan, sans-serif;
-    font-size: 16px; 
+    font-size: 16px;
 }
 
 .navigation a:hover {
@@ -77,34 +76,43 @@ header {
     color: #000;
     font-family: 'League Spartan', sans-serif;
 }
+/* Style Rules for Home page */
+.intro {
+    margin: 40px;
+    text-align: left;
+}
 
+.intro-picture {
+    margin: 40px;
+    text-align: right;
+}
 /* Main Style Rules for Packages */
 
 .column {
-  float: left;
-  width: 33.33%;
+    float: left;
+    width: 33.33%;
 }
 
 /* Style Rules For About Page */
 .container {
-    display: flex; 
-    align-items: center; 
-        }
+    display: flex;
+    align-items: center;
+}
 
 .missions {
-    flex: 1; 
+    flex: 1;
     padding: 10px;
     margin-left: 40px;
-        }
+}
 
 .image {
     flex: 1;
     margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
-        }
+}
 
-h2{
+h2 {
     color: darkgreen;
 }
 
@@ -130,23 +138,23 @@ h1 {
     margin: 50px;
     flex: 2;
     margin-top: 20px;
-} 
+}
 
 .button {
-            display: inline-block;
-            padding: 10px; 
-            background-color: darkgreen;
-            color: white; 
-            border: none;
-            border-radius: 5px; 
-            text-align: center;
-            text-decoration: none;
-            font-size: 16px; 
-            cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .horizontal-line {
-            border-top: 1px solid #000;
+    border-top: 1px solid #000;
     width: 75%;
     margin-left: 15%;
     margin-top: 40px;
@@ -154,43 +162,47 @@ h1 {
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+    .column {
+        width: 100%;
+    }
 }
 
 img {
- height: auto;
- max-width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 
 div {
- background-image: url("image.jpg");
- background-size: 100% 100%;
+    background-image: url("image.jpg");
+    background-size: 100% 100%;
 }
 
 /* Tablet viewport styles  */
 @media (max-width: 768px) {
     body {
-        font-size: 14px; /* Adjust font size for tablets */
+        font-size: 14px;
+        /* Adjust font size for tablets */
     }
 
     .container {
-        width: 80%; /* Adjust container width for tablets */
-        margin: 0 auto; /* Center align container */
+        width: 80%;
+        /* Adjust container width for tablets */
+        margin: 0 auto;
+        /* Center align container */
     }
 }
 
 /* Media Query for Desktop Viewport */
-@media screen and (min-width: 1015px), print {
-    
+@media screen and (min-width: 1015px),
+print {
+
     /* Desktop Viewport: Style rule for header */
     header {
         width: 25%;
@@ -198,7 +210,7 @@ div {
         padding-bottom: 0;
         margin: 0;
     }
-    
+
     /* Desktop Viewport: Style rules for nav area */
     nav {
         float: right;
@@ -209,7 +221,7 @@ div {
     nav ul {
         text-align: right;
     }
-    
+
     nav li {
         border: none;
     }
@@ -217,68 +229,71 @@ div {
     nav li a {
         padding: 0.5em 1em;
     }
-    
+
     nav li a:hover {
         color: #000;
         background-color: #fff;
     }
-    
+
     /* Desktop Viewport: Style Rules for main content */
     main {
         clear: left;
     }
-    
+
     main h1 {
         font-size: 1.8em;
     }
-    
+
     article h3 {
         font-size: 1.75em;
     }
-    
+
     .pic-text {
         font-size: 1.5em;
         padding: 20px;
     }
-    
+
     .frame {
         opacity: 0.9;
     }
-    
+
     .frame:hover {
         opacity: 1;
         box-shadow: 8px 8px 10px #808080;
     }
-    
-    #packages, #packages, #packages {
+
+    #packages,
+    #packages,
+    #packages {
         width: 29%;
         float: left;
         margin: 0 2%;
-   
-    
-}
 
 
-/* Media Query for Large Desktop Viewports */
-@media screen and (min-width: 1921px) {
- 
-    #container {
-        width: 1920px;
-        margin: 0 auto;
-    }
-    
-}
-
-/* Media Query for Print */
-@media print {
-    
-    body {
-        background-color: #fff;
-        color: #000;
     }
 
-}
+
+    /* Media Query for Large Desktop Viewports */
+    @media screen and (min-width: 1921px) {
+
+        #container {
+            width: 1920px;
+            margin: 0 auto;
+        }
+
     }
+
+    /* Media Query for Print */
+    @media print {
+
+        body {
+            background-color: #fff;
+            color: #000;
+        }
+
+    }
+}
+
 /* Footer Styles */
 footer {
     background-color: #ffffff;
@@ -294,12 +309,12 @@ footer {
 }
 
 .social-media a img {
-    width: 65px; 
-    height: 65px; 
+    width: 65px;
+    height: 65px;
 }
 
 .social-media a:last-child {
-    margin-right: 250px; 
+    margin-right: 250px;
 }
 
 .mobile-menu {
@@ -308,15 +323,8 @@ footer {
 
 @media (max-width: 767px) {
     .mobile-menu {
-        display: block; 
+        display: block;
     }
 }
 
 /* Attempted styling for mobile and ended up messing up several things. Unfortunately removed it for now to get back to what it was. */
-
-
-
-
-
-
-
