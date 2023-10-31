@@ -76,7 +76,16 @@ header {
     color: #000;
     font-family: 'League Spartan', sans-serif;
 }
+/* Style Rules for Home page */
+.intro {
+    margin: 40px;
+    text-align: left;
+}
 
+.intro-picture {
+    margin: 40px;
+    text-align: right;
+}
 /* Main Style Rules for Packages */
 
 .column {
