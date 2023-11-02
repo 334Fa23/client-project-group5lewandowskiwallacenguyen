@@ -124,7 +124,7 @@ h1 {
 
 .exec {
     column-count: 3;
-    padding: 40px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -305,7 +305,7 @@ footer {
 }
 
 .social-media a {
-    margin-right: 40px;
+    margin-right: 35px;
 }
 
 .social-media a img {
