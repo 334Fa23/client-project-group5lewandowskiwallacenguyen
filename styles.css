@@ -14,7 +14,7 @@ header {
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0);
 }
 
-.logo img {
+#logo img {
     width: 150px;
     margin-left: 50px;
 }
@@ -95,7 +95,7 @@ header {
     box-sizing: border-box;
 }
 
-/* Style contatiner for columns */
+/* Style container for columns */
 .column-container {
     display: flex;
     justify-content: space-between;
@@ -246,7 +246,15 @@ div {
 }
 
 /* Tablet viewport styles  */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+    .mobile-nav {
+        display: none;
+      }
+      
+      .tablet-desktop {
+        display: block;
+      }
+    
     body {
         font-size: 14px;
         /* Adjust font size for tablets */
@@ -273,6 +281,14 @@ print {
     }
 
     /* Desktop Viewport: Style rules for nav area */
+    .mobile-nav {
+        display: none;
+      }
+      
+      .tablet-desktop {
+        display: block;
+      }
+    
     nav {
         float: right;
         width: 70%;
@@ -363,6 +379,11 @@ footer {
     align-items: center;
     padding: 10px 20px;
     box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 150px;
+    margin-left: 100px;
 }
 
 .social-media a {

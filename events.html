@@ -9,20 +9,24 @@
 <body>
     <!-- Header Section -->
     <header>
-        <div class="logo">
+        <div id="logo">
             <a href="index.html"><img src="images/TitleTownEvents-FullColor.png" alt="Title Town Logo"></a>
         </div>
-        <div class="mobile-menu">
-            <div class="hamburger-menu">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="events.html">Events</a>
+                <a href="packages.html">Packages</a>
+                <a href="externalcomp.html">Ext. Companies</a>
+                <a href="contact.html">Contact Us</a>
             </div>
-            <ul class="mobile-navigation">
-                <li><a href="index.html">Home</a></li>
-            </ul>
-        </div>
-        <nav>
+            <a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+        </nav>
+
+        <nav class="tablet-desktop">
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
