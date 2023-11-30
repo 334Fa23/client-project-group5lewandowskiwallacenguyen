@@ -143,6 +143,7 @@ header {
     flex: 1;
     padding: 10px;
     margin-left: 40px;
+    line-height: 1.5;
 }
 
 .image {
@@ -166,6 +167,17 @@ h1 {
     column-count: 3;
     padding: 30px;
     text-align: center;
+}
+
+.execpics {
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+    justify-content: space-between;
+}
+
+.execpics img {
+    width: 20%;
 }
 /* Style Rules for events page */
 
@@ -193,12 +205,14 @@ h1 {
 .airlines {
     margin: 50px;
     flex: 2;
+    line-height: 2;
 }
 
 .parenttravel {
     margin: 50px;
     flex: 2;
     margin-top: 20px;
+    line-height: 2;
 }
 
 .button {
@@ -212,6 +226,7 @@ h1 {
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .horizontal-line {
@@ -373,7 +388,7 @@ print {
 
 /* Footer Styles */
 footer {
-    background-color: #ffffff;
+    background-color: #066849;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -387,7 +402,7 @@ footer {
 }
 
 .social-media a {
-    margin-right: 35px;
+
 }
 
 .social-media a img {
