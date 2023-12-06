@@ -349,13 +349,29 @@ h1 {
     clear: both;
 }
 
-/* Style Rules for Contact Us Page */
-.form {
-    margin: 50px;
-    flex: 2;
-    line-height: 2;
+/* Style Rules for Contact Page */
+form {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
 
+legend {
+    font-size: 20px;
+    color: darkgreen;
+    font-weight: bold;
+    padding: 10px;
+}
+
+label {
+    
+}
+h2 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 2em;
+}
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
